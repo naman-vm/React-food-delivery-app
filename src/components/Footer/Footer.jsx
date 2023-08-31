@@ -41,10 +41,10 @@ const Footer = () => {
             <h5 className="footer__title">Contact</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <p>Location: ZindaBazar, Sylhet-3100, Bangladesh</p>
+                <p>Location: Magnet Mall, Bhandup west-400078, Mumbai</p>
               </ListGroupItem>
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Phone: 01712345678</span>
+                <span>Phone: 0000000000</span>
               </ListGroupItem>
 
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
@@ -68,7 +68,7 @@ const Footer = () => {
         <Row className="mt-5">
           <Col lg="6" md="6">
             <p className="copyright__text">
-              Copyright - 2022, website made by Muhibur Rahman. All Rights
+              Copyright - 2023, website made by Naman Tiwari. All Rights
               Reserved.
             </p>
           </Col>
@@ -93,13 +93,13 @@ const Footer = () => {
                 <Link to=" https://www.youtube.com/c/MuhibsTechDiary">
                   <i class="ri-youtube-line"></i>
                 </Link>{" "}
-              </span>
-
+              </span> 
+ 
               <span>
                 {" "}
-                <Link to=" https://www.linkedin.com/in/muhib160/">
+                <a href=" https://www.linkedin.com/in/namanty/">
                   <i class="ri-linkedin-line"></i>
-                </Link>{" "}
+                </a>{" "}
               </span>
             </div>
           </Col>

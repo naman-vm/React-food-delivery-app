@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/common-section/CommonSection";
+import Mapview from './mapview'
 
 import { Container, Row, Col } from "reactstrap";
 
@@ -41,6 +42,8 @@ const AllFoods = () => {
   };
 
   return (
+    <>
+    <Mapview/>
     <Helmet title="All-Foods">
       <CommonSection title="All Foods" />
 
@@ -54,7 +57,7 @@ const AllFoods = () => {
                   placeholder="I'm looking for...."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                />
+                  />
                 <span>
                   <i class="ri-search-line"></i>
                 </span>
@@ -91,6 +94,7 @@ const AllFoods = () => {
         </Container>
       </section>
     </Helmet>
+</>
   );
 };
 
